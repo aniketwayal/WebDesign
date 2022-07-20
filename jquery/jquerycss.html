@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"> </script> 
+</head>
+<body>
+<div class="d1">A div element with blue class</div>
+<button id="btn">Change style</button>
+<script>
+$(document).ready(function(){
+$('#btn').dblclick(function(){
+                   $('.d1').css('color','blue');
+                   $('.d1').css('font-size','40px');
+
+
+               });
+});
+</script>
+</body>
+</html>
+
+ 

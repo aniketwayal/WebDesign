@@ -1,0 +1,25 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+</script>
+<script>
+$(document).ready(function()
+{
+$("button").click(function()
+{
+$("#f1").fadeIn();
+$("#f2").fadeIn("slow");
+
+});
+
+});
+</script>
+</head>
+<body>
+<button>Click</button>
+<div id="f1" style="width:80px;height:80px;display:none;background-color:grey;"></div>
+<br>
+<div id="f2" style="width:100px;height:80px;display:none;background-color:pink;"></div>
+<br>
+</body>
+</html>

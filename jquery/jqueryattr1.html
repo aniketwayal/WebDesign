@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+   $('#sh').click(function(){
+                   var typ = $('#pwd').attr('type');
+
+                   if(typ == 'password')
+
+                   {
+
+                       $('#pwd').attr('type','text');
+
+                       $('#sh').html('hide');
+
+                   }else{
+
+                       $('#pwd').attr('type','password');
+
+                       $('#sh').html('show');
+
+                   }
+
+               });
+});
+</script>
+</head>
+<body>
+   Password: <input type="password" id="pwd" name="pass"/>
+
+       <button id="sh">show</button>
+
+</body>
+</html>

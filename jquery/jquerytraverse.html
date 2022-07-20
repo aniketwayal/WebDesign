@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $('li').first().css('color','red');
+
+     $('li').last().css('color','blue');
+
+     $('#third').prev().css('font-size','40px');
+
+     $('#third').next().css('font-weight','bold');
+
+      $('#third').prevAll().css('text-decoration','underline');
+
+       $('#third').nextAll().css('text-transform','uppercase');
+});
+</script>
+</head>
+<body>
+<ul>
+
+           <li>First list item</li>
+
+           <li>Second list item</li>
+
+           <li id="third">Third list item</li>
+
+           <li>Fourth list item</li>
+
+           <li>Fifth list item</li>
+
+  </ul>
+
+</body>
+</html>

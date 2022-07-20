@@ -1,0 +1,27 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+</script>
+<script>
+$(document).ready(function()
+{
+$("button").click(function()
+{
+$("#f1").fadeToggle();
+$("#f2").fadeToggle("slow");
+$("#f3").fadeToggle(3000);
+});
+
+});
+</script>
+</head>
+<body>
+<button>Click</button>
+<div id="f1" style="width:80px;height:80px;background-color:grey;"></div>
+<br>
+<div id="f2" style="width:100px;height:80px;background-color:pink;"></div>
+<br>
+<div id="f3" style="width:100px;height:80px;background-color:blue;"></div>
+<br>
+</body>
+</html>
