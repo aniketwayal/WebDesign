@@ -1,0 +1,20 @@
+<html>
+<body>
+<p>After clicking away the alert box, an new alert box will appear in 5 seconds. This goes on forever...</p>
+
+<button onclick="myFunction()">Try it</button>
+<script>	
+var x;
+function myFunction() {
+
+  x = setInterval(alertFunc, 5000);
+}
+function alertFunc() {
+  alert("Hello!");
+}
+</script>
+</body>
+</html>
+
+​
+

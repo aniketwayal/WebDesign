@@ -1,0 +1,22 @@
+<html>
+<body>
+<h1>JS OBject- add method </h1>
+<script>
+
+var phone ={
+modelno:"Redmi A3",
+Colour:"Rose Gold",
+Price:"Rs. 18000",
+Ram: "8 GB",
+
+details: function(){
+return this.modelno+"<br>"+
+ this.Colour+"<br>"+
+ this.Price+"<br>"+
+ this.Ram;
+}
+};
+document.write(phone.details());
+</script>
+</body>
+</html>

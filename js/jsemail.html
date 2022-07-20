@@ -1,0 +1,25 @@
+<html>
+<head>
+<script language="javascript">
+function func1()
+{
+var x=document.forms["form1"]["fname"].value; 
+if(x=="")
+{
+alert("Email ID cannot be Blank");
+return false;
+}
+}
+</script>
+</head>
+<body>
+<form name="form1" onsubmit="return func1()" method="post">
+Email id: <input type="email" name="fname"
+ pattern="[a-z0-9._%+-]+@[a-z0-9]+\.[a-z]{3}"><br>
+<input type="submit" value="Click">
+</form>
+</body>
+</html>
+
+mam_1.@aa1.co
+com,org,in,edu,biz,co,gov

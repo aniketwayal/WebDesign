@@ -1,0 +1,17 @@
+<html>
+<body>
+<p id="p1"></p>
+<button onclick="myfunc()">Click </button>
+<script>
+var number=[78,20,8,56,100,34,5,60,43,10,20];
+document.getElementById("p1").innerHTML= number;
+function myfunc(){
+number.sort(function(num1,num2)
+{
+return num1-num2;
+});
+document.getElementById("p1").innerHTML= number;
+}
+</script>
+</body>
+</html>

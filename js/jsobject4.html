@@ -1,0 +1,27 @@
+<html>
+<body>
+<h1>JS OBject inside OBject </h1>
+<script>
+user = {
+   name:{fname:"virat", lname:"kohli"},
+   age:30,
+   email:"test@gmail.com",
+   
+play: function(){
+      return "this is play";
+   },
+
+code: function(){
+	return "this is js code";
+}
+};
+
+document.write(user.name +"<br>");           // This will return name object
+document.write(user.name.fname +"<br>");     //kohli
+document.write(user.name.lname+"<br>");     //virat
+document.write(user.age + "<br>"); //30
+document.write(user.play() + "<br>");
+document.write(user.code());
+</script>
+</body>
+</html>

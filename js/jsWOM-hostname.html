@@ -1,0 +1,22 @@
+
+<html>
+<body>
+
+<p>Click the button to display the hostname of the current URL.</p>
+<button onclick="myFunction()">Try it</button>
+<p id="demo"></p>
+<script>
+function myFunction() {
+var x = location.hostname;
+  document.getElementById("demo").innerHTML= x;
+  var x1 = location.href;
+  document.getElementById("demo").innerHTML= x1;
+  var x2 = location.protocol;
+  document.getElementById("demo").innerHTML= x2;
+  var x3 = location.pathname;
+  document.getElementById("demo").innerHTML= x3;
+}
+</script>
+
+</body>
+</html>

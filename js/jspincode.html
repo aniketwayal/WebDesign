@@ -1,0 +1,21 @@
+<html>
+<head>
+<script language="javascript">
+function func1()
+{
+var x=document.forms["form1"]["fname"].value; 
+if(x=="")
+{
+alert("Pincode cannot be Blank");
+return false;
+}
+}
+</script>
+</head>
+<body>
+<form name="form1" onsubmit="return func1()">
+Pincode: <input type="text" name="fname" pattern="[4-9]{1}[0-9]{5}"><br>
+<input type="submit" value="Click">
+</form>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<html>
+<body>
+<h1>JS OBject- add properties </h1>
+<script>
+var phone ={
+modelno:"Redmi A3",
+Colour:"Rose Gold",
+Price:"Rs. 18000",
+Ram: "8 GB",
+
+details: function(){
+return this.modelno+"<br>"+
+ this.Colour+"<br>"+
+ this.Price+"<br>"+
+ this.Ram;
+}
+};
+phone.version="Andriod 8";
+document.write(phone.details());
+document.write("<br>");
+document.write("value is : "+ phone.version+"<br>");
+</script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<html>
+<body>
+<h1>JS Array </h1>
+<button onclick="func1()">Sort-Click</button>
+<p id="demo"></p>
+<script language="javascript">
+var studentno=[12,14,8,25,30,6,50,4];
+document.getElementById("demo").innerHTML=studentno;
+function func1()
+{
+studentno.sort(function(a,b)
+{
+return a-b
+});
+document.getElementById("demo").innerHTML=studentno;
+}
+</script>
+</body>
+</html>
